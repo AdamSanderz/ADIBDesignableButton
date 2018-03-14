@@ -20,8 +20,25 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wX-RK-Wos">
+                                <rect key="frame" x="147" y="433" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="njG-ap-7Fa"/>
+                                    <constraint firstAttribute="width" constant="80" id="zQ0-d2-ahF"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="4wX-RK-Wos" secondAttribute="bottom" constant="154" id="TCg-ZK-7Ru"/>
+                            <constraint firstItem="4wX-RK-Wos" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="dtK-SG-HUF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnRound" destination="4wX-RK-Wos" id="2bj-w9-PZE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

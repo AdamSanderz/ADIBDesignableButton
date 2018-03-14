@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ADIBDesignableButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ADIBDesignableButton.'
+  s.summary          = 'ADIBDesignableButton, that will gives you the power to to make changes in interface of a button you make! in short it is'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"ADIBDesignableButton is pod that makes button rounded and gives it a little bit of shadow and a pretty colorful background! i'm sure you will love it!"
                        DESC
 
   s.homepage         = 'https://github.com/adamsanderz/ADIBDesignableButton'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ADIBDesignableButton/Classes/**/*'
+  s.source_files = 'ADIBDesignableButton/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'ADIBDesignableButton' => ['ADIBDesignableButton/Assets/*.png']

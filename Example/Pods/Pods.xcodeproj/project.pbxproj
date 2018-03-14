@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		144AFB33906DC9A86E7A59941BF04B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		498CC28B2059890900A8CB15 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498CC28A2059890900A8CB15 /* UIButtonExtension.swift */; };
 		53E24D6B057CD0C17BD8E94A8800760F /* ADIBDesignableButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4497D7900DC39108DD1C46810E3DF09B /* ADIBDesignableButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CBBA06C1678B09113D35099F5950658 /* ADIBDesignableButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CCFCD389B43FCBCE64F65ABCD07EC1 /* ADIBDesignableButton-dummy.m */; };
 		7B207D4EF72E2A6EB7C3C9C037F36D4D /* Pods-ADIBDesignableButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7538B503F383C54CFEF0FEE4FA46F37 /* Pods-ADIBDesignableButton_Example-dummy.m */; };
 		828F09D367D1666735C2523E46F7D1C9 /* Pods-ADIBDesignableButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BDADA80BB9F7C2E56CFAE43B9266F5 /* Pods-ADIBDesignableButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A562C1D85FFA1A15A33728169B73A622 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C72D5216726C6F14AE167DD027E5DEC2 /* Pods-ADIBDesignableButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D85F65DB5FA4CF39183AB056347E54 /* Pods-ADIBDesignableButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D531D0AB54BBA3994357A1744A0F5121 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0940F1140EC39AD1B5EF73DFA2B6F17 /* ReplaceMe.swift */; };
 		EB26C15D452E71D1E2E9E525FB1669DD /* Pods-ADIBDesignableButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCA8BDEEF91DC24397EA6AC3D957B7 /* Pods-ADIBDesignableButton_Tests-dummy.m */; };
 		F3B6449BA907C53574D3538906130C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -30,14 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		027163D6886CE6BA2AEDEA2C9BB215C3 /* Pods_ADIBDesignableButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADIBDesignableButton_Tests.framework; path = "Pods-ADIBDesignableButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		027163D6886CE6BA2AEDEA2C9BB215C3 /* Pods_ADIBDesignableButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIBDesignableButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D74FBE6A236019A150979AFC6966C8 /* Pods-ADIBDesignableButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADIBDesignableButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1EEE72CADC7820D4DE627880AF1189AF /* Pods-ADIBDesignableButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADIBDesignableButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		208D63AB529B8890F67CF201EDF7201D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E81B6864AABC935100BC3FC3E557BFB /* Pods-ADIBDesignableButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADIBDesignableButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4497D7900DC39108DD1C46810E3DF09B /* ADIBDesignableButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADIBDesignableButton-umbrella.h"; sourceTree = "<group>"; };
+		498CC28A2059890900A8CB15 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIButtonExtension.swift; path = ADIBDesignableButton/Classes/UIButtonExtension.swift; sourceTree = "<group>"; };
 		4C27D06BA57EE6466E2CB6E426796860 /* Pods-ADIBDesignableButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADIBDesignableButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4C7207BF48528762138727C30F66B106 /* ADIBDesignableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ADIBDesignableButton.framework; path = ADIBDesignableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7207BF48528762138727C30F66B106 /* ADIBDesignableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADIBDesignableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFCA8BDEEF91DC24397EA6AC3D957B7 /* Pods-ADIBDesignableButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADIBDesignableButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		56D85F65DB5FA4CF39183AB056347E54 /* Pods-ADIBDesignableButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADIBDesignableButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -45,13 +46,12 @@
 		83A53D03F0A4985A3D37B076E554BF2E /* ADIBDesignableButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ADIBDesignableButton.modulemap; sourceTree = "<group>"; };
 		849DE61435C046D4D774294280BC02DE /* Pods-ADIBDesignableButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADIBDesignableButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		88A004DD73BAEAF683A05147840B0F43 /* ADIBDesignableButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADIBDesignableButton-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FEAA26F1CA7A5B42A0212AC2FB01AC3 /* Pods-ADIBDesignableButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADIBDesignableButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A0940F1140EC39AD1B5EF73DFA2B6F17 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ADIBDesignableButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		A385051AB399BF53BA529727DF394FDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A385051AB399BF53BA529727DF394FDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A6CCFCD389B43FCBCE64F65ABCD07EC1 /* ADIBDesignableButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADIBDesignableButton-dummy.m"; sourceTree = "<group>"; };
 		A7538B503F383C54CFEF0FEE4FA46F37 /* Pods-ADIBDesignableButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADIBDesignableButton_Example-dummy.m"; sourceTree = "<group>"; };
-		A8EAC98D482EBE7F5A8596AE41BFCD7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A8EAC98D482EBE7F5A8596AE41BFCD7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5F414F871E83DF62D083FF677F98A0F /* Pods-ADIBDesignableButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADIBDesignableButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BFCCEFFC85DC78B6EE3D1EB2252AD7B2 /* Pods-ADIBDesignableButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADIBDesignableButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DD3D684D87BD618EA24D295F2FD2C1 /* ADIBDesignableButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADIBDesignableButton.xcconfig; sourceTree = "<group>"; };
@@ -60,11 +60,11 @@
 		DBCE793C5C513503C978A58EA114C2DF /* Pods-ADIBDesignableButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADIBDesignableButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E3B1B1CDBC5FAE0A0CDFD91C02409E7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8DAB90A6C740E696B65006F57AC2480 /* Pods-ADIBDesignableButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ADIBDesignableButton_Example.modulemap"; sourceTree = "<group>"; };
-		EA66BA1A1CAFD12ABA3DD0B246FE3C62 /* Pods_ADIBDesignableButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADIBDesignableButton_Example.framework; path = "Pods-ADIBDesignableButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA66BA1A1CAFD12ABA3DD0B246FE3C62 /* Pods_ADIBDesignableButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADIBDesignableButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE05C9C761DBF9685D77673C6D58E81F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEA5A6DB643EFE98C34723F6FA8F28F5 /* Pods-ADIBDesignableButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADIBDesignableButton_Example-resources.sh"; sourceTree = "<group>"; };
 		F1BDADA80BB9F7C2E56CFAE43B9266F5 /* Pods-ADIBDesignableButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADIBDesignableButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FBE0A33351C55CDD2849F0613FB668DD /* ADIBDesignableButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ADIBDesignableButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FBE0A33351C55CDD2849F0613FB668DD /* ADIBDesignableButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ADIBDesignableButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +108,9 @@
 		11871EAB23520C853EB4BA1EED166343 /* ADIBDesignableButton */ = {
 			isa = PBXGroup;
 			children = (
-				A0940F1140EC39AD1B5EF73DFA2B6F17 /* ReplaceMe.swift */,
 				16D7A28525633BAAFC8499FE856E84C8 /* Pod */,
 				247681EC01F7E075BBF0FD3953A31B32 /* Support Files */,
+				498CC28A2059890900A8CB15 /* UIButtonExtension.swift */,
 			);
 			name = ADIBDesignableButton;
 			path = ../..;
@@ -310,6 +310,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					DE7F3AE39C6DA1CE615AEF7B6981E1DF = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -336,7 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CBBA06C1678B09113D35099F5950658 /* ADIBDesignableButton-dummy.m in Sources */,
-				D531D0AB54BBA3994357A1744A0F5121 /* ReplaceMe.swift in Sources */,
+				498CC28B2059890900A8CB15 /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1DD3D684D87BD618EA24D295F2FD2C1 /* ADIBDesignableButton.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -592,6 +598,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1DD3D684D87BD618EA24D295F2FD2C1 /* ADIBDesignableButton.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
