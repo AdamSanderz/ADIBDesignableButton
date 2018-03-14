@@ -1,0 +1,6 @@
+framework module ADIBDesignableButton {
+  umbrella header "ADIBDesignableButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

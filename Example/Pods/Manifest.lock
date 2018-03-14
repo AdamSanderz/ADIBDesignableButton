@@ -1,0 +1,16 @@
+PODS:
+  - ADIBDesignableButton (0.1.0)
+
+DEPENDENCIES:
+  - ADIBDesignableButton (from `../`)
+
+EXTERNAL SOURCES:
+  ADIBDesignableButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ADIBDesignableButton: dab7cd7aa5722b3bf825f771831d9928b84c8d71
+
+PODFILE CHECKSUM: 87dc16e90ebf15849fc0c5d91eb637b063ed9359
+
+COCOAPODS: 1.4.0
