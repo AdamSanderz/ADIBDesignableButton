@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ADIBDesignableButton_Example' do
+  pod 'ADIBDesignableButton', :path => '../'
+
+  target 'ADIBDesignableButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
